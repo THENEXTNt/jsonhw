@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      table tr td {
+        border: 1px solid rgb(150, 20, 20);
+        background-color: rgb(112, 95, 84);
+        text-align: center;
+        display: flexbox;
+        justify-items: center;
+      }
+      table td {
+        padding: 10px;
+        width: 200px;
+        font-size: small;
+      }
+      table td p {
+        margin-top: 20px;
+        margin-left: 20px;
+      }
+    </style>
+  </head>
+  <body class="bg-black">
+    <h1 class="flex text-gray-800 justify-center my-5 text-white">
+      Hello ReqRes users!
+    </h1>
+    <table>
+      <tr id="rowDisplay" class="w-200 h-100"></tr>
+    </table>
+    <script>
+      axios.get("https://reqres.in/api/users/").then(function (ressponse) {
+        let rowDisplay = document.getElementById("rowDisplay")
+        let textHtml = ""
+        for (let i = 0; i < response.data.data.length; i++) {
+          let img = "<p><img src='" + response.data.data[i].avatar + "'></p>"
+
+          textHtml +=
+            "<td>" +
+            response.data.data[i].first_name +
+            "\n" +
+            response.data.data[i].email +
+            img +
+            "</td>"
+        }
+        rowDisplay.innerHTML = textHtml
+      })
+    </script>
+  </body>
+</html>
