@@ -34,7 +34,7 @@
       <tr id="rowDisplay" class="w-200 h-100"></tr>
     </table>
     <script>
-      axios.get("https://reqres.in/api/users/").then(function (ressponse) {
+      axios.get("https://reqres.in/api/users/").then(function (response ) {
         let rowDisplay = document.getElementById("rowDisplay")
         let textHtml = ""
         for (let i = 0; i < response.data.data.length; i++) {
