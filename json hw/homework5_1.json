@@ -1,42 +1,47 @@
-{
-  "firstname": "thariyapong",
-  "lastname": "hemvipat",
-  "age": "16",
-  "gender": "male",
-  "address": {
-    "sub_distinct": "Tha Raeng",
-    "district": "krungthep"
+[
+  {
+    "name": "user1",
+    "age": 16,
+    "firstname": "thariyapong",
+    "lastname": "hemvipat",
+    "gender": "male",
+    "address": {
+      "sub_district": "Tha Raeng",
+      "district": "krungthep"
+    },
+    "contact": {
+      "mobile": "0615495356",
+      "email": "breakingBad@gmail.com"
+    }
   },
-  "contact": {
-    "mobile": "0615495356",
-    "email": "breackingBad@gmail.com"
-  }
-}
-{
-  "firstname": "yat",
-  "lastname": "degban",
-  "age": "24",
-  "gender": "male",
-  "address": {
-    "sub_distinct": "ld prao",
-    "district": "krungthep"
+  {
+    "name": "user2",
+    "age": 24,
+    "firstname": "yat",
+    "lastname": "degban",
+    "gender": "male",
+    "address": {
+      "sub_district": "ld prao",
+      "district": "krungthep"
+    },
+    "contact": {
+      "mobile": "012345678",
+      "email": "degban@gmail.com"
+    }
   },
-  "contact": {
-    "mobile": "012345678",
-    "email": "degban@gmail.com"
+  {
+    "name": "user3",
+    "age": 19,
+    "firstname": "bang",
+    "lastname": "knok",
+    "gender": "male",
+    "address": {
+      "sub_district": "saton",
+      "district": "krungthep"
+    },
+    "contact": {
+      "mobile": "0887776644",
+      "email": "knok@gmail.com"
+    }
   }
-}
-{
-  "firstname": "bang",
-  "lastname": "knok",
-  "age": "19",
-  "gender": "male",
-  "address": {
-    "sub_distinct": "saton",
-    "district": "krungthep"
-  },
-  "contact": {
-    "mobile": "0887776644",
-    "email": "knok@gmail.com"
-  }
-}
+]
