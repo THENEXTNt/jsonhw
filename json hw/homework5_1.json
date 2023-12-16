@@ -12,3 +12,31 @@
     "email": "breackingBad@gmail.com"
   }
 }
+{
+  "firstname": "yat",
+  "lastname": "degban",
+  "age": "24",
+  "gender": "male",
+  "address": {
+    "sub_distinct": "ld prao",
+    "district": "krungthep"
+  },
+  "contact": {
+    "mobile": "012345678",
+    "email": "degban@gmail.com"
+  }
+}
+{
+  "firstname": "bang",
+  "lastname": "knok",
+  "age": "19",
+  "gender": "male",
+  "address": {
+    "sub_distinct": "saton",
+    "district": "krungthep"
+  },
+  "contact": {
+    "mobile": "0887776644",
+    "email": "knok@gmail.com"
+  }
+}
